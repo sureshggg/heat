@@ -1,0 +1,20 @@
+{
+   "name": "Heat List",
+   "description": "Quick view to heat tickets",
+   "manifest_version": 2,
+   "version": "1.0.0.0",
+   "icons": {
+     "128": "image/heat.png"
+   },
+   "browser_action": {
+      "default_icon": "image/heat.png",
+      "default_title": "Heat", 
+      "name": "Heat", 
+      "default_popup": "popup.html"
+   }, 
+   "background" : {
+     "page" : "background.html"
+   },
+   "options_page": "options.html",
+   "permissions": [ "notifications", "tabs", "http://*/*", "https://*/*", "storage", "alarms"  ]
+}

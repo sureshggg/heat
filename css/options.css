@@ -1,0 +1,25 @@
+html{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 500px;
+  margin: 30px auto;
+}
+
+.container {
+  display: table;
+  with: 400px ;
+}
+.row {
+  margin:10px;
+}
+.column {
+  display: table-cell;
+  width: 100px ;
+}
+
+#message{
+  color: green;
+}
