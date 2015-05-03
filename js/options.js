@@ -21,7 +21,9 @@ $(document).ready(function(){
         heatPassword: heatPassword,
         ticketRegEx: ticketRegEx 
       }, function(){
-      $("#message").html("Updated!").show().delay(5000).hide(1) ;
+      $("#message").html("Updated!").show().delay(5000).hide(1, function(){
+        window.close() ;
+      }) ;
     });
 
   }) ;
