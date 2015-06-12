@@ -21,6 +21,7 @@ $(document).ready(function(){
         heatPassword: heatPassword,
         ticketRegEx: ticketRegEx 
       }, function(){
+        bgPage.heatSession.login() ;
       $("#message").html("Updated!").show().delay(5000).hide(1, function(){
         window.close() ;
       }) ;
